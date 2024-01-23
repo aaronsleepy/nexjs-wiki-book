@@ -1,14 +1,16 @@
 import { ApiContext, User } from "types/data"
 import { fetcher } from "uitls"
 
-/**
- * API Client: signin
- */
 export type SigninParams = {
     username: string
     password: string
 }
 
+/**
+ * API Client: signin
+ * @param context API Context
+ * @param params Signin Params
+ */
 const signin = async (
     context: ApiContext,
     params: SigninParams,
