@@ -1,5 +1,5 @@
 import { ApiContext } from "types/data"
-import { fetcher } from "uitls"
+import { fetcher } from "utils"
 
 export type PurchaseParams = {
     productId: number

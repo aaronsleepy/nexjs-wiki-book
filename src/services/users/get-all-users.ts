@@ -1,5 +1,5 @@
 import { ApiContext, User } from "types/data"
-import { fetcher } from "uitls"
+import { fetcher } from "utils"
 
 /**
  * 사용자 API(목록 취득)
